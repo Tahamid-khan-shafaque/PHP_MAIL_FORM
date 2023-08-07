@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
         $mail->Port = 587;
 
         $mail->setFrom('khantahmid');
-        $mail->addAddress('thegem');//has something
+        $mail->addAddress('thegemkhan003');//has something
 
         $mail->isHTML(true);
         $mail->Subject = 'Form Submission';
